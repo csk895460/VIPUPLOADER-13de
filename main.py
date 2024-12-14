@@ -33,10 +33,10 @@ getstatusoutput(f"wget {photo1} -O 'photo.jpg'")
 photo = "photo.jpg"
 
 credit ="😎𝖘:)™~" 
-OWNER = int(os.environ.get("OWNER", 2032347579))
+OWNER = int(os.environ.get("OWNER", 5201266500 ))
 try: 
     ADMINS=[] 
-    for x in (os.environ.get("ADMINS", "2032347579 5702090016").split()):  
+    for x in (os.environ.get("ADMINS", "5201266500 7341460998").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -44,13 +44,13 @@ ADMINS.append(OWNER)
 
 bot = Client("bot",    
    bot_token="7453205223:AAGjZ03nRAntwbCw1rDd_4KYllr5lE-3uaw",    
-   api_id= 21179966,    
-   api_hash= "d97919fb0a3c725e8bb2a25bbb37d57c"
+   api_id= 25038096,    
+   api_hash= "098112aae38be62db58363267a061b59"
 )
 
 @bot.on_message(filters.command(["start"]))    
 async def account_login(bot: Client, m: Message):    
-    editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /scammer ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/scammer_botz'>😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™~ </a>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
+    editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /pitaji ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/nda_paid_course_infree'>😎𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇:)™~ </a>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
 
 @bot.on_message(filters.command("Stop"))    
 async def restart_handler(_, m):    
@@ -122,7 +122,7 @@ async def account_login(bot: Client, m: Message):
 
 
 
-    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣⪼ 144\n┣⪼ 240\n┣⪼ 360\n┣⪼ 480\n┣⪼ 720\n┣⪼ 1080\n╰━━⌈⚡[😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™~]⚡⌋━━➣ **")   
+    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣⪼ 144\n┣⪼ 240\n┣⪼ 360\n┣⪼ 480\n┣⪼ 720\n┣⪼ 1080\n╰━━⌈⚡[𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇)™~]⚡⌋━━➣ **")   
     input2: Message = await bot.listen(editable.chat.id)    
     raw_text2 = input2.text    
     await input2.delete(True)    
@@ -231,7 +231,7 @@ async def account_login(bot: Client, m: Message):
 
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()    
-            name = f'{str(count).zfill(3)})😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™~{name1[:60]}' 
+            name = f'{str(count).zfill(3)})𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇:)™~{name1[:60]}' 
             ytf = f"b[height<={raw_text2}]/bv[height<={raw_text2}]+ba/b/bv+ba" 
 
     
@@ -244,9 +244,9 @@ async def account_login(bot: Client, m: Message):
 
             try:
   
-                cc = f'**[ 🎬 ] 𝗩𝗜𝗗 𝗜𝗗 : {str(count).zfill(3)}**\n**𝐕𝐢𝐝𝐞𝐨 𝐓𝐢𝐭𝐥𝐞** : {name1}**({res})😎:)™~**.mp4\n\n**𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** : **{b_name}**\n\n@ebooks_pdf_sarkari\n**𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 ➤ {MR}**\n\n'    
-                ccyt = f'**[ 🎬 ] 𝗩𝗜𝗗 𝗜𝗗 : {str(count).zfill(3)}**\n**𝐕𝐢𝐝𝐞𝐨 𝐓𝐢𝐭𝐥𝐞** : {name1}**({res})😎:)™~**.mp4\n\n**𝐕𝐢𝐝𝐞𝐨 𝐥𝐢𝐧𝐤** -  {url}\n@ebooks_pdf_sarkari\n\n**𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** : **{b_name}**\n\n**𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 ➤ {MR}**\n\n'
-                cc1 = f'**[ 📕 ] 𝗣𝗗𝗙 𝗜𝗗 : {str(count).zfill(3)}**\n**𝐏𝐝𝐟 𝐓𝐢𝐭𝐥𝐞** : {name1} **😎:)™~**.pdf \n\n**𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** : **{b_name}**\n\n@ebooks_pdf_sarkari\n**𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 ➤ {MR}**\n'    
+                cc = f'**[ 🎬 ] 𝗩𝗜𝗗 𝗜𝗗 : {str(count).zfill(3)}**\n**𝐕𝐢𝐝𝐞𝐨 𝐓𝐢𝐭𝐥𝐞** : {name1}**({res})😎:)™~**.mp4\n\n**𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** : **{b_name}**\n\n𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇\n**𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 ➤ {MR}**\n\n'    
+                ccyt = f'**[ 🎬 ] 𝗩𝗜𝗗 𝗜𝗗 : {str(count).zfill(3)}**\n**𝐕𝐢𝐝𝐞𝐨 𝐓𝐢𝐭𝐥𝐞** : {name1}**({res})😎:)™~**.mp4\n\n**𝐕𝐢𝐝𝐞𝐨 𝐥𝐢𝐧𝐤** -  {url}\n𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇\n\n**𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** : **{b_name}**\n\n**𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 ➤ {MR}**\n\n'
+                cc1 = f'**[ 📕 ] 𝗣𝗗𝗙 𝗜𝗗 : {str(count).zfill(3)}**\n**𝐏𝐝𝐟 𝐓𝐢𝐭𝐥𝐞** : {name1} **😎:)™~**.pdf \n\n**𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** : **{b_name}**\n\n𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇\n**𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 ➤ {MR}**\n'    
                 if "drive" in url:    
                     try:    
                         ka = await helper.download(url, name)    
@@ -283,7 +283,7 @@ async def account_login(bot: Client, m: Message):
                         continue
                      
                 else:
-                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ....**\n\n**📚❰Name❱** `{name}\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n🌿**Url**» ᴘᴀᴅʜᴀɪ ᴋᴀʀ ʟᴇ ʙʀᴏ🧐\n\n **ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ [😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™]**\n**═════━‧₊˚❀༉‧₊˚.━═════ **"    
+                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ....**\n\n**📚❰Name❱** `{name}\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n🌿**Url**» ᴘᴀᴅʜᴀɪ ᴋᴀʀ ʟᴇ ʙʀᴏ🧐\n\n **ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ [😎𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇✅️)™]**\n**═════━‧₊˚❀༉‧₊˚.━═════ **"    
                     prog = await m.reply_text(Show)    
                     res_file = await helper.download_video(url, cmd, name)    
                     filename = res_file    
@@ -295,7 +295,7 @@ async def account_login(bot: Client, m: Message):
                     
             except Exception as e:
                 await m.reply_text(
-                    f"**downloading failed [😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™]**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`\n\n═════━‧₊˚❀༉‧₊˚.━═════"
+                    f"**downloading failed [😇😇😇)™]**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`\n\n═════━‧₊˚❀༉‧₊˚.━═════"
                     )
                 
     except Exception as e:
