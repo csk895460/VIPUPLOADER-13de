@@ -221,7 +221,19 @@ async def account_login(bot: Client, m: Message):
                     x = url.replace(x, "")
                     url = ((m3u8.loads(requests.get(url).text)).data['playlists'][1]['uri']).replace(q+"/", x)
                 
-                
+                elif {
+  "key_strings": "--key 6ac4b672650759eab61186ddc7c77dac:3d2ec72c1e6557f81950c4fda14df89d --key d908dc4911d852da88ce381c16c56431:0ff6f67b4012963095c41590a306d75e --key cb0fe51038455143bcf809279449484a:453e124dba0d018b26607ffc9a3c96a3 --key 4a7eea099b8d5e2f9cc820db2bb30134:dccdfc4579b8b50baa33fb8f70864c0f --key 8cb67c85ab9f5ebe84a6f1cb316d8743:3c2beff378a933eb39acdd72755520c0",
+  "keys": [
+    "6ac4b672650759eab61186ddc7c77dac:3d2ec72c1e6557f81950c4fda14df89d",
+    "d908dc4911d852da88ce381c16c56431:0ff6f67b4012963095c41590a306d75e",
+    "cb0fe51038455143bcf809279449484a:453e124dba0d018b26607ffc9a3c96a3",
+    "4a7eea099b8d5e2f9cc820db2bb30134:dccdfc4579b8b50baa33fb8f70864c0f",
+    "8cb67c85ab9f5ebe84a6f1cb316d8743:3c2beff378a933eb39acdd72755520c0"
+  ],
+  "mpd": "https://drmcdni.classplusapp.com/streams/65f02cbd734b790a42d7317f/046b5f32deb48999a0a1f56e1d4a103a.mpd?key=173551546024221-2-0-b373fdc3df167285d23c118ed0c1ea6c",
+  "pssh": "AAAAWnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADoiMjc2NjQ2ZjYzNjk3MDY4NjU3MmY3MTNhNWY3YzU2MjQwNmFiYWYxMDRiM2NkMzc0NDJmSOPclZsG",
+  "response_time": "2 seconds"
+                }
             elif "edge.api.brightcove.com" in url:
                 bcov = 'bcov_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MjQyMzg3OTEsImNvbiI6eyJpc0FkbWluIjpmYWxzZSwiYXVzZXIiOiJVMFZ6TkdGU2NuQlZjR3h5TkZwV09FYzBURGxOZHowOSIsImlkIjoiZEUxbmNuZFBNblJqVEROVmFWTlFWbXhRTkhoS2R6MDkiLCJmaXJzdF9uYW1lIjoiYVcxV05ITjVSemR6Vm10ak1WUlBSRkF5ZVNzM1VUMDkiLCJlbWFpbCI6Ik5Ga3hNVWhxUXpRNFJ6VlhiR0ppWTJoUk0wMVdNR0pVTlU5clJXSkRWbXRMTTBSU2FHRnhURTFTUlQwPSIsInBob25lIjoiVUhVMFZrOWFTbmQ1ZVcwd1pqUTViRzVSYVc5aGR6MDkiLCJhdmF0YXIiOiJLM1ZzY1M4elMwcDBRbmxrYms4M1JEbHZla05pVVQwOSIsInJlZmVycmFsX2NvZGUiOiJOalZFYzBkM1IyNTBSM3B3VUZWbVRtbHFRVXAwVVQwOSIsImRldmljZV90eXBlIjoiYW5kcm9pZCIsImRldmljZV92ZXJzaW9uIjoiUShBbmRyb2lkIDEwLjApIiwiZGV2aWNlX21vZGVsIjoiU2Ftc3VuZyBTTS1TOTE4QiIsInJlbW90ZV9hZGRyIjoiNTQuMjI2LjI1NS4xNjMsIDU0LjIyNi4yNTUuMTYzIn19.snDdd-PbaoC42OUhn5SJaEGxq0VzfdzO49WTmYgTx8ra_Lz66GySZykpd2SxIZCnrKR6-R10F5sUSrKATv1CDk9ruj_ltCjEkcRq8mAqAytDcEBp72-W0Z7DtGi8LdnY7Vd9Kpaf499P-y3-godolS_7ixClcYOnWxe2nSVD5C9c5HkyisrHTvf6NFAuQC_FD3TzByldbPVKK0ag1UnHRavX8MtttjshnRhv5gJs5DQWj4Ir_dkMcJ4JaVZO3z8j0OxVLjnmuaRBujT-1pavsr1CCzjTbAcBvdjUfvzEhObWfA1-Vl5Y4bUgRHhl1U-0hne4-5fF0aouyu71Y6W0eg'
                 url = url.split("bcov_auth")[0]+bcov
